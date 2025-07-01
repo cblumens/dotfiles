@@ -3,6 +3,7 @@
 **GPG-encrypted passwords. Terminal-based everything. Battle-tested for years.**
 
 ## The Complete System
+- **OS:** Arch Linux (rolling release)
 - **Passwords:** pass (GPG + git sync)
 - **Mail:** mutt/neomutt + offlineimap (pass integration)
 - **Calendar:** vdirsyncer + khal (pass-managed auth)  
