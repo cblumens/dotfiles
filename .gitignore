@@ -1,0 +1,19 @@
+# Temporary directories
+*/tmp/
+*/temp/
+*/cache/
+*/__pycache__/
+
+# Sensitive files
+*.secret
+*.key
+*.hist
+*token*
+*password*
+*lock*
+*identity*
+
+# Temporary files
+*.tmp
+*.swp
+*.bkp
