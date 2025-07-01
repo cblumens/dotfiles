@@ -13,6 +13,8 @@
 - **Editor:** nvim (Lua config)
 - **WM:** sway (Wayland tiling)
 
+![Desktop Screenshot](screenshot.png)
+
 ## What You Get
 - **Zero GUI dependencies** - runs over SSH  
 - **Complete offline capability** - airplane mode ready  
