@@ -17,3 +17,13 @@
 *.tmp
 *.swp
 *.bkp
+
+# Other files
+*catppuccin-mocha.conf
+*catppuccin-mocha
+*autoconfig.yml
+*/bookmarks/
+*/catppuccin/
+*/greasemonkey/
+*/qsettings/
+*/quickmarks/
