@@ -23,8 +23,8 @@
 *catppuccin-mocha
 *catppuccin.muttrc
 *autoconfig.yml
-*/bookmarks/
-*/catppuccin/
-*/greasemonkey/
-*/qsettings/
-*/quickmarks/
+.config/qutebrowser/bookmarks/
+.config/qutebrowser/catppuccin/
+.config/qutebrowser/greasemonkey/
+.config/qutebrowser/qsettings/
+*quickmarks/
