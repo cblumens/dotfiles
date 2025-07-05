@@ -56,7 +56,6 @@ cpu() {
     echo "LOAD $load"
 }
 
-
 # uptime
 uptime() {
     local uptime_seconds=$(awk '{print int($1)}' /proc/uptime)
