@@ -48,7 +48,7 @@ password.fetch = ["command", "pass", "show", "caldav/nextcloud"]
 ```bash
 git clone https://github.com/yourusername/dotfiles
 cd dotfiles
-./install.sh
+# Look around and use what you find interesting
 ```
 
 ## Not Included
