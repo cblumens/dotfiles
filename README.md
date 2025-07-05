@@ -1,90 +1,63 @@
-# ⚡ **EXTREME CLI MASTERY** - The Terminal-Only Lifestyle
-**🔥 Battle-tested for YEARS. Zero compromises. Maximum productivity.**
+# ⚡ Complete CLI Security & Productivity Stack
+**GPG-encrypted passwords. Terminal-based everything. Battle-tested for years.**
 
-## 🚀 **Why This Exists**
-Most people are **SLAVES** to their GUI apps. You're about to break free.
+## Why This Setup?
+Tired of waiting for Electron apps to load? Want your entire workflow to run over SSH? This is a complete terminal-based productivity system that actually works.
 
-This isn't just a config collection - **it's a complete philosophy.**
-
-## 💀 **The Complete Arsenal**
-- **OS:** Arch Linux (rolling release) - because stability is for the weak
-- **Passwords:** pass (GPG + git sync) - your secrets stay SECRET
-- **Mail:** mutt/neomutt + offlineimap - email like a HACKER
-- **Calendar:** vdirsyncer + khal - meetings without bloat
-- **Contacts:** vdirsyncer + khard - relationships, optimized
-- **Tasks:** todoman - GTD without the GUI addiction
-- **Browser:** qutebrowser - vim keys EVERYWHERE
-- **Editor:** nvim (Lua config) - coding at light speed
-- **WM:** sway (Wayland tiling) - windows that OBEY you
-- **PDF:** zathura - documents without distractions
+## The Stack
+- **OS:** Arch Linux (rolling release)
+- **Passwords:** pass (GPG + git sync)
+- **Mail:** mutt/neomutt + offlineimap
+- **Calendar:** vdirsyncer + khal
+- **Contacts:** vdirsyncer + khard
+- **Tasks:** todoman
+- **Browser:** qutebrowser
+- **Editor:** nvim (Lua config)
+- **WM:** sway (Wayland tiling)
+- **PDF:** zathura
 
 ![Desktop Screenshot](screenshot.png)
 
-## 🎯 **What You Actually Get**
+## What You Get
+- **Zero GUI dependencies** - runs over SSH
+- **Complete offline capability** - airplane mode ready
+- **Sync everywhere** - phone, laptop, server
+- **Lightning fast** - no bloated clients
+- **Highly scriptable** - automate everything
+- **Privacy-focused** - all credentials GPG-encrypted
 
-### **🔓 FREEDOM**
-- **Zero GUI dependencies** - works over potato connections
-- **Complete offline capability** - internet? optional.
-- **Sync everywhere** - phone, laptop, toaster
-- **Lightning fast** - because RAM is precious
-- **Infinitely scriptable** - automate your life away
+## Security Model
+All passwords are GPG-encrypted via `pass`. No plaintext credentials anywhere:
 
-### **🛡️ SECURITY THAT MATTERS**
-- **All passwords GPG-encrypted** (pass store)
-- **No plaintext credentials** ANYWHERE
-- **Audit every line** - no mystery meat code
-
-### **⚡ SPEED THAT HURTS**
 ```bash
-# While others wait for Outlook to load...
-mutt # <- you're already reading email
-
-# While they click through calendar apps...
-khal list today # <- your day is planned
-
-# While they fumble with password managers...
-pass -c work/email # <- copied to clipboard
-```
-
-## 🔥 **Integration Magic**
-```bash
-# offlineimap pulls passwords from pass - SEAMLESS
+# offlineimap pulls passwords from pass
 passwordeval = pass show email/work/password
 
-# vdirsyncer uses pass for credentials - NO HARDCODING
+# vdirsyncer uses pass for credentials
 password.fetch = ["command", "pass", "show", "caldav/nextcloud"]
-
-# Everything talks to everything - ECOSYSTEM
 ```
 
-## 🎯 **Perfect For**
-- **Developers** who think GUIs are training wheels
-- **Privacy warriors** who don't trust Big Tech
-- **Speed demons** tired of waiting for Electron
-- **Minimalists** who know less is more
-- **Power users** who want COMPLETE control
+## Perfect For
+- Developers who live in terminal
+- Privacy-conscious users
+- People tired of resource-heavy apps
+- Anyone who values speed over shininess
+- Remote workers who need SSH-friendly tools
 
-## ❌ **NOT Included (Intentionally)**
-- Fancy animations that waste CPU
-- RGB that screams "look at me"
+## Quick Start
+```bash
+git clone https://github.com/yourusername/dotfiles
+cd dotfiles
+./install.sh
+```
+
+## Not Included
+- Fancy animations
 - Experimental features that break weekly
-- Configs maintained by weekend warriors
-
-## 🚀 **Ready to Ascend?**
-
-**Clone this. Use this. BECOME this.**
-
-Your future productive self will thank you.
+- Configs that need constant maintenance
 
 ---
 
-*"Why click when you can command?"* 
+*"Why click when you can type?"*
 
-**⭐ Star if this saves you from GUI hell**
-
-**🍴 Fork if you're ready to join the terminal elite**
-
-**📢 Share if you want to convert the masses**
-
----
-**Warning:** *May cause severe productivity increases and terminal addiction.*
+**⭐ Star if this setup inspires your workflow**
