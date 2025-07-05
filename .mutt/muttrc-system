@@ -1,2 +1,2 @@
 set sendmail = "/usr/bin/msmtp -a gmail"
-folder-hook 'gmail/INBOX' 'set new_mail_command = "notify-send -u normal -i mail-unread       \"New Mail\" \"You have %n new messages\""'
+folder-hook 'gmail/INBOX' 'set new_mail_command = "notify-send -u normal -i mail-unread       \"New Mail\" \"You have %n new mails\""'
