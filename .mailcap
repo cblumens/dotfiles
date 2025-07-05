@@ -1,5 +1,1 @@
-text/html; sh -c "mkdir -p ~/.mutt/tmp && cp '%s' ~/.mutt/tmp/mutt-preview.html && qutebrowser file://$HOME/.mutt/tmp/mutt-preview.html" >/dev/null 2>&1 &; test=test -n "$DISPLAY"; needsterminal;
-text/html; w3m -dump -o document_charset=%{charset} '%s'; nametemplate=%s.html; copiousoutput;
-application/pdf; zathura '%s' >/dev/null 2>&1 &; test=test -n "$DISPLAY"
-image/*; qutebrowser file://'%s' >/dev/null 2>&1 &; test=test -n "$DISPLAY";
-application/ics; khal import -a home '%s'; copiousoutput;
+/home/cblumens/.mailcap
