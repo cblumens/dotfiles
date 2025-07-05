@@ -27,5 +27,6 @@
 .config/qutebrowser/catppuccin/
 .config/qutebrowser/greasemonkey/
 .config/qutebrowser/qsettings/
+.config/todoman/__pycache__/
 *quickmarks
 .config/sway/evening-sky.png
