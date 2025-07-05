@@ -11,5 +11,5 @@ set font "monospace 12"
 
 # Behaviour 
 set adjust-open "best-fit"
-set database "null"  # <-- WICHTIG!
+set database "null"
 set recolor "false"
