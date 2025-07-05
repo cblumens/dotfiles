@@ -1,0 +1,15 @@
+# Catppuccin Mocha
+set default-bg "#1e1e2e"
+set default-fg "#cdd6f4"
+set statusbar-bg "#313244"
+set statusbar-fg "#cdd6f4"
+set recolor-lightcolor "#1e1e2e"
+set recolor-darkcolor "#cdd6f4"
+
+# Font
+set font "monospace 12"
+
+# Behaviour 
+set adjust-open "best-fit"
+set database "null"
+set recolor "false"
