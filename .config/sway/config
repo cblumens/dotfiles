@@ -24,6 +24,7 @@ set $menu wmenu-run -i -f "monospace 11" -N '#1e1e2e' -n '#cdd6f4' -M '#45475a' 
 output * bg ~/.config/sway/evening-sky.png fill
 
 # Idle configuration
+# In ~/.config/sway/config:
 exec nextcloud --background
 exec blueman-applet
 exec autotiling

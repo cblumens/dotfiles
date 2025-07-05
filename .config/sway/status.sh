@@ -28,6 +28,14 @@ wifi() {
     fi
 }
 
+# vpn
+vpn() {
+    local vpn_active=$(nmcli -t -f NAME,TYPE connection show --active | grep vpn | head -1)
+    if [[ -n "$vpn_active" ]]; then
+        echo "VPN"
+    fi
+}
+
 # volume
 volume() {
     local vol=$(pamixer --get-volume 2>/dev/null || echo "0")
@@ -65,5 +73,10 @@ uptime() {
     fi
 }
 
-# minimal output - spaces instead of pipes
-echo "$(uptime)  $(cpu)  $(volume)  $(wifi)  $(battery)  $(date +'%Y-%m-%d %H:%M')"
+# minimal output - only show vpn when active
+vpn_status=$(vpn)
+if [[ -n "$vpn_status" ]]; then
+    echo "$(uptime)  $(cpu)  $(volume)  $(wifi)  $(vpn)  $(battery)  $(date +'%Y-%m-%d %H:%M')"
+else
+    echo "$(uptime)  $(cpu)  $(volume)  $(wifi)  $(battery)  $(date +'%Y-%m-%d %H:%M')"
+fi
