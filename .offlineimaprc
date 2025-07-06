@@ -5,6 +5,7 @@ pythonfile = ~/.offlineimap.py
 [Account gmail]
 localrepository = gmail-local
 remoterepository = gmail-remote
+labelsheader = X-Keywords
 postsynchook = notmuch new
 
 [Repository gmail-local]
