@@ -76,6 +76,8 @@ exec swayidle -w \
     # Network manager
     bindsym $mod+n exec kitty nmtui
 
+    bindsym $mod+q exec QT_QPA_PLATFORMTHEME=gtk3 qutebrowser
+
 # Moving around:
     # Move your focus around
     bindsym $mod+$left focus left
