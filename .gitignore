@@ -30,3 +30,4 @@
 .config/todoman/__pycache__/
 *quickmarks
 .config/sway/evening-sky.png
+.mutt/signature
