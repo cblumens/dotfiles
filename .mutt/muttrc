@@ -31,9 +31,9 @@ mailboxes +gmail/INBOX \
     +gmail/drafts \
     +gmail/spam \
     +gmail/archive \
-    +gmail/trash \
+    +trash/trash \
     +tmp/search
-set trash = +gmail/trash
+set trash = +trash/trash
 set postponed = +gmail/drafts
 set mbox = +gmail/archive
 
@@ -52,7 +52,6 @@ bind index <tab> sync-mailbox
 bind index <space> collapse-thread
 bind attach <return> view-mailcap
 bind attach i exit
-macro index a "<save-message>+gmail/trash<enter><delete-message>" "archive mail"
 macro index S "<enter-command>unset wait_key<enter><shell-escape>~/.mutt/mutt-notmuch-py ~/.mail/tmp/search<enter><change-folder-readonly>+tmp/search<enter>" "search mail (using notmuch)"
 macro index O "<shell-escape>mbsync -a && notmuch new<enter>" "run mbsync to sync all mail"
 macro index o "<shell-escape>mbsync gmail-inbox && notmuch new<enter>" "run mbsync to sync only INBOX"
@@ -82,7 +81,7 @@ unset markers # no ugly plus signs
 
 # Compose View Options -------------------------------
 set envelope_from = yes # which from?
-set sig_dashes # no dashes before sig
+unset sig_dashes # no dashes before sig
 set fast_reply = yes # skip to compose when replying
 set sig_on_top = yes
 set fcc_attach = yes # save attachments with the body
