@@ -6,6 +6,8 @@ Tired of waiting for Electron apps to load? Want your entire workflow to run ove
 
 ## The Stack
 - **OS:** Arch Linux (rolling release)
+- **WM:** sway (wayland tiling)
+- **Browser:** qutebrowser
 - **Terminal:** foot (wayland native)
 - **Passwords:** pass (GPG)
 - **Mail:** offlineimap + mutt 
@@ -13,8 +15,7 @@ Tired of waiting for Electron apps to load? Want your entire workflow to run ove
 - **Contacts:** vdirsyncer + khard
 - **Tasks:** todoman
 - **Browser:** qutebrowser
-- **Editor:** nvim (Lua config)
-- **WM:** sway (Wayland tiling)
+- **Editor:** nvim
 - **PDF:** zathura
 
 ![Desktop Screenshot](screenshot.png)
