@@ -6,6 +6,7 @@ Tired of waiting for Electron apps to load? Want your entire workflow to run ove
 
 ## The Stack
 - **OS:** Arch Linux (rolling release)
+- **Terminal:** Foot (wayland native)
 - **Passwords:** pass (GPG)
 - **Mail:** mutt + mbsync
 - **Calendar:** vdirsyncer + khal
