@@ -19,6 +19,7 @@ Tired of waiting for Electron apps to load? Want your entire workflow to run ove
 - **PDF:** zathura
 
 ![Desktop Screenshot](screenshot.png)
+*Wallpaper: [Catppuccin Evening Sky](https://github.com/zhichaoh/catppuccin-wallpapers/blob/main/landscapes/evening-sky.png)*
 
 ## What You Get
 - **Zero GUI dependencies** - runs over SSH
