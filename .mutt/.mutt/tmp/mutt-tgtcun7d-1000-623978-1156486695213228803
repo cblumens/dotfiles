@@ -1,0 +1,793 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><html><head></head><body>
+  
+    
+      <!--[if gte mso 15]>
+        <xml>
+          <o:OfficeDocumentSettings>
+            <o:AllowPNG />
+              <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+          </xml>
+      <![endif]-->
+      <meta name="viewport" content="width=device-width"/>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+      <meta name="x-apple-disable-message-reformatting"/>
+      <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII"/>
+      <!-- Shipping confirmation email template for Shopify -->
+      <style type="text/css" data-premailer="ignore">
+        /* What it does: Remove spaces around the email design added by some email clients. */
+            /* Beware: It can remove the padding / Margin and add a background color to the compose a reply window. */
+            html, body {
+              Margin: 0 auto !important;
+              padding: 0 !important;
+              width: 100% !important;
+                height: 100% !important;
+            }
+            /* What it does: Stops email clients resizing small text. */
+            * {
+              -ms-text-size-adjust: 100%;
+              -webkit-text-size-adjust: 100%;
+              text-rendering: optimizeLegibility;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+            /* What it does: Forces Outlook.com to display emails full width. */
+            .ExternalClass {
+              width: 100%;
+            }
+            /* What is does: Centers email on Android 4.4 */
+            div[style*="Margin: 16px 0"] {
+                Margin:0 !important;
+            }
+            /* What it does: Stops Outlook from adding extra spacing to tables. */
+            table,
+            th {
+              mso-table-lspace: 0pt;
+              mso-table-rspace: 0pt;
+            }
+            /* What it does: Fixes Outlook.com line height. */
+            .ExternalClass,
+            .ExternalClass * {
+              line-height: 100% !important;
+            }
+            /* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+            table {
+              border-spacing: 0 !important;
+              border-collapse: collapse !important;
+              border: none;
+              Margin: 0 auto;
+            }
+            div[style*="Margin: 16px 0"] {
+                Margin:0 !important;
+            }
+            /* What it does: Uses a better rendering method when resizing images in IE. */
+            img {
+              -ms-interpolation-mode:bicubic;
+            }
+            /* What it does: Overrides styles added when Yahoo's auto-senses a link. */
+            .yshortcuts a {
+              border-bottom: none !important;
+            }
+            /* What it does: Overrides blue, underlined link auto-detected by iOS Mail. */
+            /* Create a class for every link style needed; this template needs only one for the link in the footer. */
+            /* What it does: A work-around for email clients meddling in triggered links. */
+            *[x-apple-data-detectors],  /* iOS */
+            .x-gmail-data-detectors,    /* Gmail */
+            .x-gmail-data-detectors *,
+            .aBn {
+                border-bottom: none !important;
+                cursor: default !important;
+                color: inherit !important;
+                text-decoration: none !important;
+                font-size: inherit !important;
+                font-family: inherit !important;
+                font-weight: inherit !important;
+                line-height: inherit !important;
+            }
+            /* What it does: Overrides blue, underlined link auto-detected by Gmail. */
+            u   #body a {
+                color: inherit;
+                text-decoration: none;
+                font-size: inherit;
+                font-family: inherit;
+                font-weight: inherit;
+                line-height: inherit;
+            }
+
+            /* What it does: Prevents Gmail from displaying an download button on large, non-linked images. */
+            .a6S {
+                display: none !important;
+                opacity: 0.01 !important;
+            }
+            /* If the above doesn't work, add a .g-img class to any image in question. */
+            img.g-img   div {
+                display:none !important;
+            }
+            /* What it does: Prevents underlining the button text in Windows 10 */
+            a,
+            a:link,
+            a:visited {
+                color: #1a1a1a;
+                text-decoration: none !important;
+            }
+            .header a {
+                color: ;
+                text-decoration: none;
+                text-underline: none;
+            }
+            .main a {
+                color: #1a1a1a;
+                text-decoration: none;
+                text-underline: none;
+                word-wrap: break-word;
+            }
+            .main .section.customer_and_shipping_address a,
+            .main .section.shipping_address_and_fulfillment_details a {
+                color: #666666;
+                text-decoration: none;
+                text-underline: none;
+                word-wrap: break-word;
+            }
+            .footer a {
+                color: #222222;
+                text-transform: none;
+                text-decoration: none;
+                text-underline: none;
+            }
+
+            /* What it does: Overrides styles added images. */
+            img {
+              border: none !important;
+              outline: none !important;
+              text-decoration:none !important;
+            }
+            td.menu_bar_1 a:hover,
+            td.menu_bar_6 a:hover {
+              color: #1a1a1a !important;
+            }
+            th.related_product_wrapper.first {
+              border-right: 11px solid #ffffff;
+              padding-right: 5px;
+            }
+            th.related_product_wrapper.last {
+              border-left: 11px solid #ffffff;
+              padding-left: 5px;
+            }
+      </style>
+      <!--[if (mso)|(mso 16)]>
+        <style type="text/css" data-premailer="ignore">
+          a {text-decoration: none;}
+        </style>
+      <![endif]-->
+      <!--[if gte mso 9]>
+        <style>
+          li {
+                text-indent: -1em; /* Normalise space between bullets and text */
+            }
+        </style>
+      <![endif]-->
+      <!--[if !mso]><!-->
+    <style type="text/css" data-premailer="ignore">
+      /* What it does: Fixes fonts for Google WebFonts; */
+      [style*="Karla"] {
+          font-family: 'Karla',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif !important;
+      }
+      [style*="Karla"] {
+          font-family: 'Karla',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif !important;
+      }
+      [style*="Open Sans"] {
+          font-family: 'Open Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif !important;
+      }
+      [style*="Karla"] {
+          font-family: 'Karla',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif !important;
+      }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Open%20Sans:300,400,700|Karla:700,400|Karla:400,700|Karla:400,700&amp;subset=latin-ext" rel="stylesheet" type="text/css" data-premailer="ignore"/>
+    <!--<![endif]-->
+        <style type="text/css" data-premailer="ignore">
+          /* Media Queries */
+              /* What it does: Removes right gutter in Gmail iOS app */
+              @media only screen and (min-device-width: 375px) and (max-device-width: 413px) { /* iPhone 6 and 6  */
+                  .container {
+                      min-width: 375px !important;
+                  }
+              }
+              /* Main media query for responsive styles */
+              @media only screen and (max-width:480px) {
+                /* What it does: Overrides email-container's desktop width and forces it into a 100% fluid width. */
+                .email-container {
+                  width: 100% !important;
+                  min-width: 100% !important;
+                }
+                .section > th {
+                  padding: 11px 22px 11px 22px !important;
+                }
+                .section.divider > th {
+                  padding: 22px 22px !important;
+                }
+                .main .section:first-child > th,
+                .main .section:first-child > td {
+                    padding-top: 22px !important;
+                }
+                  .main .section:nth-last-child(2) > th,
+                  .main .section:nth-last-child(2) > td {
+                      padding-bottom: 44px !important;
+                  }
+                .section.recommended_products > th,
+                .section.discount > th {
+                    padding: 22px 22px !important;
+                }
+                /* What it does: Forces images to resize to the width of their container. */
+                img.fluid,
+                img.fluid-centered {
+                  width: 100% !important;
+                  min-width: 100% !important;
+                  max-width: 100% !important;
+                  height: auto !important;
+                  Margin: auto !important;
+                  box-sizing: border-box;
+                }
+                /* and center justify these ones. */
+                img.fluid-centered {
+                  Margin: auto !important;
+                }
+
+                /* What it does: Forces table cells into full-width rows. */
+                th.stack-column,
+                th.stack-column-left,
+                th.stack-column-center,
+                th.related_product_wrapper,
+                .column_1_of_2,
+                .column_2_of_2 {
+                  display: block !important;
+                  width: 100% !important;
+                  min-width: 100% !important;
+                  direction: ltr !important;
+                  box-sizing: border-box;
+                }
+                /* and left justify these ones. */
+                th.stack-column-left {
+                  text-align: left !important;
+                }
+                /* and center justify these ones. */
+                th.stack-column-center,
+                th.related_product_wrapper {
+                  text-align: center !important;
+                  border-right: none !important;
+                  border-left: none !important;
+                }
+                .column_button,
+                .column_button > table,
+                .column_button > table th {
+                  width: 100% !important;
+                  text-align: center !important;
+                  Margin: 0 !important;
+                }
+                .column_1_of_2 {
+                  padding-bottom: 22px !important;
+                }
+                .column_1_of_2 th {
+                    padding-right: 0 !important;
+                }
+                .column_2_of_2 th {
+                    padding-left:  0 !important;
+                }
+                .column_text_after_button {
+                  padding: 0 11px !important;
+                }
+                /* Adjust product images */
+                th.table-stack {
+                  padding: 0 !important;
+                }
+                th.product-image-wrapper {
+                    padding: 22px 0 11px 0 !important;
+                }
+                img.product-image {
+                      width: 240px !important;
+                      max-width: 240px !important;
+                }
+                tr.row-border-bottom th.product-image-wrapper {
+                  border-bottom: none !important;
+                }
+                th.related_product_wrapper.first,
+                th.related_product_wrapper.last {
+                  padding-right: 0 !important;
+                  padding-left: 0 !important;
+                }
+                .text_banner th.banner_container {
+                  padding: 11px !important;
+                }
+                .mobile_app_download .column_1_of_2 .image_container {
+                  padding-bottom: 0 !important;
+                }
+                .mobile_app_download .column_2_of_2 .image_container {
+                  padding-top: 0 !important;
+                }
+                .image_with_text th.column_1_of_2 {
+                  padding: 22px !important;
+                  padding-bottom: 11px !important;
+                }
+                .image_with_text th.column_2_of_2 {
+                  padding: 22px !important;
+                  padding-top: 11px !important;
+                }
+                .images_in_2_columns th.column_1_of_2 {
+                  padding: 0 !important;
+                  padding-bottom: 11px !important;
+                }
+                .images_in_2_columns th.column_2_of_2 {
+                  padding: 0 !important;
+                  padding-top: 11px !important;
+                }
+              }
+        </style>
+        <style type="text/css" data-premailer="ignore">
+          /* Custom Media Queries */
+            @media only screen and (max-width:480px) {
+              .section > th {
+                  padding: 11px 22px !important;
+              }
+              .section.discount > th,
+              .section.divider > th,
+              .section.recommended_products > th,
+              .column_unsubscribe {
+                  padding-right: 22px !important;
+                  padding-left: 22px !important;
+              }
+              .column_logo,
+              .column_1_of_2,
+              .column_2_of_2 {
+                  display: block !important;
+                  width: 100% !important;
+                  min-width: 100% !important;
+                  direction: ltr !important;
+                  box-sizing: border-box !important;
+                  text-align: center !important;
+              }
+              th.column_1_of_2 th,
+              th.column_2_of_2 th,
+              th.column_1_of_2 th *,
+              th.column_2_of_2 th * {
+                  text-align: left !important;
+              }
+              .column_1_of_2.column_order_number,
+              .column_2_of_2.column_date {
+                  display: table-cell !important;
+                  width: 50% !important;
+                  min-width: 50% !important;
+                  direction: initial !important;
+                  box-sizing: content-box !important;
+                  text-align: initial !important;
+              }
+              .subtitle.title,
+              .subtitle.related_products_title,
+              .subtitle.discount_title {
+                  text-align: center !important;
+              }
+              table.button {
+                  width: 100% !important;
+              }
+              th.order-table-title {
+                text-align: center !important;
+              }
+              th.column_text_after_button {
+                  padding-right: 22px !important;
+                  padding-left: 22px !important;
+              }
+              .column_products th {
+                vertical-align: top !important;
+              }
+            }
+        </style>
+      
+      
+        <!--[if !mso 9]><!-->
+          <div style="display: none; overflow: hidden; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; mso-hide: all;">
+              We&#39;re happy to let you know that your order has been shipped!
+          </div>
+        <!--<![endif]-->
+          <!-- BEGIN: CONTAINER -->
+          <table class="container container_full" cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse: collapse; min-width: 100%;" role="presentation" bgcolor="#f9f9f9">
+            <tbody>
+              <tr>
+                <th valign="top" style="mso-line-height-rule: exactly;">
+                  <center style="width: 100%;">
+                    <table border="0" width="600" cellpadding="0" cellspacing="0" align="center" style="width: 600px; min-width: 600px; max-width: 600px; margin: auto;" class="email-container" role="presentation">
+                      <tbody>
+                        <tr>
+                          <th valign="top" style="mso-line-height-rule: exactly;">
+                            <!-- BEGIN : SECTION : HEADER -->
+                            <table class="section_wrapper header" data-id="header" id="section-header" border="0" width="100%" cellpadding="0" cellspacing="0" align="center" style="min-width: 100%;" role="presentation" bgcolor="#ffffff">
+                              <tbody><tr>
+                                <td class="section_wrapper_th" style="mso-line-height-rule: exactly; padding-top: 22px; padding-bottom: 22px;" bgcolor="#ffffff">
+                                  <img src="https://cdn.shopify.com/s/files/1/0303/7639/4796/files/LOGO_SUIT_Nero.png?8043" alt="Suit Negozi Eu" width="180"/><table border="0" width="100%" cellpadding="0" cellspacing="0" align="center" style="min-width: 100%;" role="presentation"></table>
+                                </td>
+                              </tr>
+                            </tbody></table>
+                            <!-- END : SECTION : HEADER -->
+                            <!-- BEGIN : SECTION : MAIN -->
+                            <table class="section_wrapper main" data-id="main" id="section-main" border="0" width="100%" cellpadding="0" cellspacing="0" align="center" style="min-width: 100%;" role="presentation" bgcolor="#ffffff">
+                              <tbody><tr>
+                                <td class="section_wrapper_th" style="mso-line-height-rule: exactly;" bgcolor="#ffffff">
+                                  <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center" style="min-width: 100%;" id="mixContainer" role="presentation">
+                                    <!-- BEGIN SECTION: Heading -->
+                                    <tbody><tr id="section-4692812" class="section heading">
+                                      <th style="mso-line-height-rule: exactly; padding: 33px 44px 11px;" bgcolor="#ffffff">
+                                        <table cellspacing="0" cellpadding="0" border="0" width="100%" role="presentation">
+                                          <tbody><tr>
+                                            <th style="mso-line-height-rule: exactly;" bgcolor="#ffffff" valign="top">
+                                              <h1 data-key="4692812_heading" style="font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Karla&#39;; font-size: 24px; line-height: 36px; font-weight: 700; color: #1a1a1a; text-transform: none; margin: 0;">Shipping Confirmation</h1>
+                                            </th>
+                                          </tr>
+                                        </tbody></table>
+                                      </th>
+                                    </tr>
+                                    <!-- END SECTION: Heading -->
+                                    <!-- BEGIN SECTION: Divider -->
+                                    <tr id="section-4692813" class="section divider">
+                                      <th style="mso-line-height-rule: exactly; padding: 22px 44px;" bgcolor="#ffffff">
+                                        <table cellspacing="0" cellpadding="0" border="0" width="100%" role="presentation">
+                                          <tbody><tr>
+                                            <th style="mso-line-height-rule: exactly; border-top-width: 1px; border-top-color: #eeeeee; border-top-style: solid;" bgcolor="#ffffff" valign="top">
+                                            </th>
+                                          </tr>
+                                        </tbody></table>
+                                      </th>
+                                    </tr>
+                                    <!-- END SECTION: Divider -->
+                                    <!-- BEGIN SECTION: Introduction -->
+                                    <tr id="section-4692814" class="section introduction">
+                                      <th style="mso-line-height-rule: exactly; padding: 11px 44px;" bgcolor="#ffffff">
+                                        
+                                          <p style="mso-line-height-rule: exactly; font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Open Sans&#39;; font-size: 15px; line-height: 22px; font-weight: 300; text-transform: none; color: #666666; margin: 0 0 11px;" align="left">
+                                            <span data-key="4692814_greeting_text" style="text-align: left; font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Open Sans&#39;; font-size: 15px; line-height: 22px; font-weight: 300; text-transform: none; color: #666666;">
+                                              Hey
+                                            </span>
+                                            Christian,
+                                          </p>
+                                        
+                                        
+                                        <span data-key="4692814_introduction_text" class="text" style="text-align: left; font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Open Sans&#39;; font-size: 15px; line-height: 22px; font-weight: 300; text-transform: none; color: #666666;">
+                                          <p style="mso-line-height-rule: exactly; font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Open Sans&#39;; font-size: 15px; line-height: 22px; font-weight: 300; text-transform: none; color: #666666; margin: 11px 0 0;" align="left">We&#39;re happy to let you know that your order has been shipped!</p>
+                                        </span>
+                                      </th>
+                                    </tr>
+                                    <!-- END SECTION: Introduction -->
+                                    <!-- BEGIN SECTION: Tracking Button -->
+                                    <tr id="section-4692815" class="section tracking_button">
+                                      
+                                        <th style="mso-line-height-rule: exactly; padding: 0 44px 11px;" bgcolor="#ffffff">
+                                          <table cellspacing="0" cellpadding="0" border="0" width="100%" role="presentation">
+                                            <tbody><tr>
+                                              <th class="sides column_text_before_button" data-key="4692815_text_before_button" style="mso-line-height-rule: exactly; font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Open Sans&#39;; font-size: 15px; line-height: 22px; font-weight: 300; text-transform: none; color: #666666; padding-bottom: 11px;" align="left" bgcolor="#ffffff" valign="top">You can follow the status of your shipment by clicking the button below:
+                                              </th>
+                                            </tr>
+                                            <!-- Button : BEGIN -->
+                                            <tr>
+                                              <th class="sides column_button button5" style="mso-line-height-rule: exactly; margin: 0; padding: 11px 0;" align="center" bgcolor="#ffffff" valign="top">
+                                                <table cellspacing="0" cellpadding="0" border="0" class="button" role="presentation" style="text-align: left; margin: 0 auto;" bgcolor="transparent">
+                                                  <tbody><tr>
+                                                    <th class="button-inner" style="mso-line-height-rule: exactly; border-radius: 1px;" align="center" bgcolor="#222222" valign="top">
+                                                      <a class="button-link" href="https://eu.suitnegozi.com/_t/c/v3/AAC3shged2jP3EKb8TvB0vIz8OLKeJwaYVzYqoftLuUnqlO69Cm7WIq2_c2wi3g3ChVtTrbsUvb4J-k6JzexAi6wGaX8Dh9PCEqa5zu6_84Cugv1MI5JN0vpBpKZzW9RcHQ1kznhnH-pheDE0tTQuk5uYhPRQyT9Fx4-RXe5Vps-NlN1VlNImGRH0waRjdE2kHQx8TKCdMquFcUtgtpvMADcqxvVQDnlgTIlfGcSobxUttkVxPeBJJde9fgzr06AF6lx3HQzeKRfTWcq73y4bOeMED62u04NHIWNZHEbBE3oVbSIkuXELYgbhsR7xQJsOOWX6hSEqhPwY6tvxAByzjJufW65WpnYw9zCZi6c_OqUGV6k_227TwSzyQ==" target="_blank" style="color: #ffffff !important; text-decoration: none !important; text-underline: none; word-wrap: break-word; line-height: 15px; font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Karla&#39;; font-size: 15px; font-weight: 400; text-transform: none; text-align: center; display: block; background-color: #222222; border-radius: 1px; padding: 1px 20px; border: 15px solid #222222;"><span style="line-height: 15px; color: #ffffff; font-weight: 400; text-decoration: none; text-underline: none; letter-spacing: 0.5px;"><!--[if mso]>    <![endif]--><span data-key="4692815_text_on_button" style="line-height: 15px; color: #ffffff; font-weight: 400; text-decoration: none; text-underline: none; letter-spacing: 0.5px;">Track Package</span><!--[if mso]>    <![endif]--></span></a>
+                                                    </th>
+                                                  </tr>
+                                                </tbody></table>
+                                              </th>
+                                            </tr>
+                                            <!-- Button : END -->
+                                            <tr>
+                                              <th class="sides column_text_after_button muted" data-key="4692815_text_after_button" style="mso-line-height-rule: exactly; font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Open Sans&#39;; font-size: 13px; line-height: 22px; font-weight: normal; text-transform: none; color: #999999; padding: 0 44px;" align="center" bgcolor="#ffffff" valign="top">Please note, it could take some time for the tracking information to show on the above.
+                                              </th>
+                                            </tr>
+                                          </tbody></table>
+                                        </th>
+                                      
+                                    </tr>
+                                    <!-- END SECTION: Tracking Button -->
+                                    <!-- BEGIN SECTION: Closing Text -->
+                                    <tr id="section-4692816" class="section closing_text">
+                                      <th data-key="4692816_closing_text" class="text" style="mso-line-height-rule: exactly; font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Open Sans&#39;; font-size: 15px; line-height: 22px; font-weight: 300; text-transform: none; color: #666666; padding: 11px 44px;" align="left" bgcolor="#ffffff">
+                                        Please do not hesitate to send an email to <a href="mailto:order@it.suitnegozi.com" style="color: #1a1a1a; text-decoration: none !important; text-underline: none; word-wrap: break-word;">order@it.suitnegozi.com</a> if you have any questions at all.<br/>
+                                        <br/>
+                                        Many thanks,<br/>
+                                        The Suit team
+                                      </th>
+                                    </tr>
+                                    <!-- END SECTION: Closing Text -->
+                                    <!-- BEGIN SECTION: Divider -->
+                                    <tr id="section-4692817" class="section divider">
+                                      <th style="mso-line-height-rule: exactly; padding: 22px 44px;" bgcolor="#ffffff">
+                                        <table cellspacing="0" cellpadding="0" border="0" width="100%" role="presentation">
+                                          <tbody><tr>
+                                            <th style="mso-line-height-rule: exactly; border-top-width: 1px; border-top-color: #eeeeee; border-top-style: solid;" bgcolor="#ffffff" valign="top">
+                                            </th>
+                                          </tr>
+                                        </tbody></table>
+                                      </th>
+                                    </tr>
+                                    <!-- END SECTION: Divider -->
+                                    <!-- BEGIN SECTION: Order Number And Date -->
+                                    <tr id="section-4692818" class="section order_number_and_date">
+                                      <th style="mso-line-height-rule: exactly; padding: 11px 44px;" bgcolor="#ffffff">
+                                        
+                                          <h2 style="font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Karla&#39;; color: #1a1a1a; font-size: 18px; line-height: 24px; font-weight: 400; text-transform: none; margin: 0;" align="left">
+                                            <span data-key="4692818_order_number">Order No.</span> EU11510
+                                          </h2>
+                                          <p class="muted" style="mso-line-height-rule: exactly; font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Open Sans&#39;; font-size: 13px; line-height: 22px; font-weight: normal; text-transform: none; color: #999999; margin: 0;" align="left">30/06/2025</p>
+                                        
+                                      </th>
+                                    </tr>
+                                    <!-- END SECTION: Order Number And Date -->
+                                    <!-- BEGIN SECTION: Shipping Address And Fulfillment Details -->
+                                    <tr id="section-4692819" class="section shipping_address_and_fulfillment_details">
+                                      <!-- BEGIN : 2 COLUMNS : SHIP_TO -->
+                                      <th style="mso-line-height-rule: exactly; padding: 11px 44px;" bgcolor="#ffffff">
+                                        <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center" style="min-width: 100%;" role="presentation">
+                                          <tbody><tr>
+                                            <!-- BEGIN : Column 1 of 2 : SHIP_TO -->
+                                            <th width="50%" class="column_1_of_2 column_ship_to " style="mso-line-height-rule: exactly;" align="left" bgcolor="#ffffff" valign="top">
+                                              <table align="center" border="0" width="100%" cellpadding="0" cellspacing="0" style="min-width: 100%;" role="presentation">
+                                                
+                                                  <tbody><tr>
+                                                    <th style="mso-line-height-rule: exactly; padding-right: 11px;" align="left" bgcolor="#ffffff" valign="top">
+                                                      <h3 data-key="4692819_ship_to" style="font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Karla&#39;; color: #1a1a1a; font-size: 16px; line-height: 24px; font-weight: 400; text-transform: none; margin: 0;" align="left">Shipping Address</h3>
+                                                    </th>
+                                                  </tr>
+                                                  <tr>
+                                                    <th class="shipping_address " style="mso-line-height-rule: exactly; padding-right: 11px;" align="left" bgcolor="#ffffff" valign="top">
+                                                      <p style="mso-line-height-rule: exactly; font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Open Sans&#39;; font-size: 15px; line-height: 22px; font-weight: 300; text-transform: none; color: #666666; margin: 0;" align="left">Christian Blumensath<br/>
+                                                          Kistlerhofstraße 75<br/>
+                                                          TD SYNNEX<br/>
+                                                          81379 München<br/>
+                                                           Germany<br/>
+                                                          <span data-key="4692819_tel" style="text-align: left; font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Open Sans&#39;; font-size: 15px; line-height: 22px; font-weight: 300; text-transform: none; color: #666666;">Tel.</span> <span style="color: inherit !important; text-decoration: none !important; text-align: left; font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Open Sans&#39;; font-size: 15px; line-height: 22px; font-weight: 300; text-transform: none;">+491777029488</span><br/>
+                                                          </p>
+                                                    </th>
+                                                  </tr>
+                                                
+                                              </tbody></table>
+                                            </th>
+                                            <!-- END : Column 1 of 2 : SHIP_TO -->
+                                            <!-- BEGIN : Column 2 of 2 : TRACKING_INFO -->
+                                            <th width="50%" class="column_2_of_2 column_tracking_info " style="mso-line-height-rule: exactly;" align="right" bgcolor="#ffffff" valign="top">
+                                              <table align="center" border="0" width="100%" cellpadding="0" cellspacing="0" style="min-width: 100%;" role="presentation">
+                                                
+                                                  <tbody><tr>
+                                                    <th style="mso-line-height-rule: exactly; padding-left: 11px;" align="right" bgcolor="#ffffff" valign="top">
+                                                      <h3 data-key="4692819_shipping_method" style="font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Karla&#39;; color: #1a1a1a; font-size: 16px; line-height: 24px; font-weight: 400; text-transform: none; margin: 0;" align="right">Shipping Method</h3>
+                                                    </th>
+                                                  </tr>
+                                                  <tr>
+                                                    <th style="mso-line-height-rule: exactly; padding-left: 11px;" align="right" bgcolor="#ffffff" valign="top">
+                                                      <p style="mso-line-height-rule: exactly; font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Open Sans&#39;; font-size: 15px; line-height: 22px; font-weight: 300; text-transform: none; color: #666666; margin: 0;" align="right">
+                                                        UPS<br/>
+                                                        
+                                                        MBE Standard 5-7 working days<br/>
+                                                        
+                                                        
+                                                        
+                                                          <a href="https://eu.suitnegozi.com/_t/c/v3/AABNGKOfom8U6OmafeZ4ShRgzhGrKIDw-u6zy7ntVSzGfzMrshW-oSEvFpBv8qhO-uxjdmaX_FDPsrnrkrnCmm9a66PfgbAJh0R7kH16Jc9QgxNDXEQ-IoCWe31wDfBtzW2HT0LlK_TTtixCrwqdK7GLeAplJ7MPrwUiMrDXeoApbJkC2Hss7FxfeM37_FFgYkNfBAy0cv8fvw2OBo3_z4x5D9a9fPsT5QVjxWCQiY0dAMpxfSKoHXXDcF9R87haTOjBvFTr-WCwc8nE9WSIWrDh8GmxxYqRB1UjbG6w6A1JYBSteOjF7mJ4eJc4Jp8i4MPUmR73X1UIbNXVfYZvX9PTIZlPdCTZAKm5e11MbVW_RvLxj2LWI8ix4w==" style="color: #1a1a1a; text-decoration: none !important; text-underline: none; word-wrap: break-word;">1Z4V18E26800230576</a><br/>
+                                                        
+                                                        <br/>
+                                                      </p>
+                                                    </th>
+                                                  </tr>
+                                                  <tr>
+                                                    <th style="mso-line-height-rule: exactly; padding-left: 11px;" align="right" bgcolor="#ffffff" valign="top">
+                                                      <h3 data-key="4692819_tracking_items" style="font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Karla&#39;; color: #1a1a1a; font-size: 16px; line-height: 24px; font-weight: 400; text-transform: none; margin: 0;" align="right">Shipped Items</h3>
+                                                    </th>
+                                                  </tr>
+                                                  
+                                                  
+                                                  <tr>
+                                                    <th style="mso-line-height-rule: exactly; padding-left: 11px;" align="right" bgcolor="#ffffff" valign="top">
+                                                      <p style="mso-line-height-rule: exactly; font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Open Sans&#39;; font-size: 15px; line-height: 22px; font-weight: 300; text-transform: none; color: #666666; margin: 0;" align="right">
+                                                        1/1<br/>
+                                                      </p>
+                                                    </th>
+                                                  </tr>
+                                                
+                                              </tbody></table>
+                                            </th>
+                                            <!-- END : Column 2 of 2 : TRACKING_INFO -->
+                                          </tr>
+                                        </tbody></table>
+                                      </th>
+                                      <!-- END : 2 COLUMNS : TRACKING_INFO -->
+                                    </tr>
+                                    <!-- END SECTION: Shipping Address And Fulfillment Details -->
+                                    <!-- BEGIN SECTION: Products -->
+                                    <tr id="section-4692820" class="section products">
+                                      
+                                        <th style="mso-line-height-rule: exactly; padding: 11px 44px;" bgcolor="#ffffff">
+                                          <table class="table-inner" cellspacing="0" cellpadding="0" border="0" width="100%" style="min-width: 100%;" role="presentation">
+                                            <!-- Bold 1 -->
+                                            
+                                            
+                                            <!-- end Bold 1 -->
+                                            <tbody><tr>
+                                              <th class="product-table" style="mso-line-height-rule: exactly;" bgcolor="#ffffff" valign="top">
+                                                <table cellspacing="0" cellpadding="0" border="0" width="100%" style="min-width: 100%;" role="presentation">
+                                                  <tbody><tr>
+                                                    <th colspan="2" class="product-table-h3-wrapper" style="mso-line-height-rule: exactly;" bgcolor="#ffffff" valign="top">
+                                                      <h3 data-key="4692820_item" style="font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Karla&#39;; color: #1a1a1a; font-size: 16px; line-height: 24px; font-weight: 400; text-transform: none; border-bottom-width: 1px; border-bottom-color: #eeeeee; border-bottom-style: solid; margin: 0;" align="left">Shipped Items</h3>
+                                                    </th>
+                                                  </tr>
+                                                  
+                                                    
+                                                      <!-- Bold 2 -->
+                                                      
+                                                      
+                                                      
+                                                      
+                                                        
+                                                        
+                                                      
+                                                      <!-- end Bold 2 -->
+                                                      <tr class="row-border-bottom">
+                                                        <th class="table-stack product-image-wrapper stack-column-center" width="1" style="mso-line-height-rule: exactly; border-bottom-width: 1px; border-bottom-color: #eeeeee; border-bottom-style: solid; padding: 11px 11px 11px 0;" bgcolor="#ffffff" valign="middle"><a href="https://eu.suitnegozi.com/_t/c/v3/AAD4HInDBNw9OOjDoJiCtI6gh_Cf3_Z6HK28V1z9PQTvXbjpyC9LbkqrNetkZr2vlfCvNM87mMz85qulmr0BPh86soQVkcU1etJZjRAunI8QsyupKxxbeN2zwQsnWggKWFq8rb_keMWTHW1eCawp4tHV50gTf_eThs8YeWEYrzdLgN4d41EuRrlUr_4JgXOuTgOXUsqmXLKvIVM5qUq7jChqhaGfFr3pV0iRn7wo1b5N6KpvPMgeJ9_yRH0u_k_arF7ALfakVkLLjCzER_qTMc_yDpcXaYZvtShrUwWt1Im6WxWSgckJSOwQuVm-tFmZ_emfRFysjU751K-y3xq6TfFbHwHqcPmdNfu9MXCAhcpUoytOF3E1sDh9PTvW79RO-JY4jn7zRfstgxN0S7EwVWeEdoJQV-6oFZdG90JD9g==" target="_blank" style="color: #1a1a1a; text-decoration: none !important; text-underline: none; word-wrap: break-word;"><img width="120" class="product-image" src="https://cdn.shopify.com/s/files/1/0303/7639/4796/files/64616_227840_120x120_cropped@3x.jpg?v=1738609926" alt="T-SHIRT SACAI X WTAPS - 1" style="vertical-align: middle; text-align: center; width: 120px; max-width: 120px; height: auto !important; border-radius: 0px; padding: 0px;"/></a></th>
+                                                        <th class="product-details-wrapper table-stack stack-column" style="mso-line-height-rule: exactly; padding-top: 11px; padding-bottom: 11px; border-bottom-width: 1px; border-bottom-color: #eeeeee; border-bottom-style: solid;" bgcolor="#ffffff" valign="middle">
+                                                          <table cellspacing="0" cellpadding="0" border="0" width="100%" style="min-width: 100%;" role="presentation">
+                                                            <tbody><tr>
+                                                              
+                                                              <th class="line-item-description" style="mso-line-height-rule: exactly; font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Open Sans&#39;; font-size: 15px; line-height: 22px; font-weight: 300; text-transform: none; color: #666666; padding: 11px 5px 11px 0;" align="left" bgcolor="#ffffff" valign="top">
+                                                                <p style="mso-line-height-rule: exactly; font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Open Sans&#39;; font-size: 15px; line-height: 22px; font-weight: 300; text-transform: none; color: #666666; margin: 0;" align="left">
+                                                                  <a href="https://eu.suitnegozi.com/_t/c/v3/AACJSu1t1OL_Qgow-KKinXiK5ywJiUKpaqyfuZt7klwwvMxNAR2V7lPRPb66wFHva8IYMDpzE8YxL6-w-4nzkWLAFWo2DMaq_pDi4dVlf2T6O-yAdFbS-uEXf3CjJoUJFxlyOMsGPifsnwoUo4WiuTGGtfWulTNIigGXN7ArdGn8Q2k-n2HCwm6ErW60c3jInxTX5o5vX5Os3FDgcZY4OAoSMin8GFopaFdeps-NY0hebpb3RGLikJUjSijprw1Lgcw3VXk5Rz-cPhb-diXYfCyPYODT8h-bpQ-QHljRrJIbx47Oz3Qoihu1059od_PGmHfNBGPmUFatNumwfZ0tgFvKAvEJZSAJADYafNME7HSQULYVupgBshh_JSUgUD4lX2S0Yr6njqQwK9Sbe02bTDOgb8HZGqz8oH7vFy9BLA==" target="_blank" style="color: #666666; text-decoration: none !important; text-underline: none; word-wrap: break-word; text-align: left !important; font-weight: 300;">
+                                                                    T-SHIRT SACAI X WTAPS
+                                                                  </a>
+                                                                  
+                                                                    <br/>
+                                                                    <span class="muted" style="text-align: left; font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Open Sans&#39;; font-size: 13px; line-height: 22px; font-weight: normal; text-transform: none; color: #999999;">1</span>
+                                                                  
+                                                                  
+                                                                </p>
+                                                              </th>
+                                                              <th class="right line-item-qty" width="1" style="mso-line-height-rule: exactly; white-space: nowrap; padding: 11px 0 11px 11px;" align="right" bgcolor="#ffffff" valign="top">
+                                                                <p style="mso-line-height-rule: exactly; font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Open Sans&#39;; font-size: 15px; line-height: 22px; font-weight: 300; text-transform: none; color: #666666; margin: 0;" align="right">
+                                                                  × 1
+                                                                </p>
+                                                              </th>
+                                                            </tr>
+                                                          </tbody></table>
+                                                        </th>
+                                                      </tr>
+                                                      
+                                                    
+                                                  
+                                                </tbody></table>
+                                              </th>
+                                            </tr>
+                                          </tbody></table>
+                                        </th>
+                                      
+                                    </tr>
+                                    <!-- END SECTION: Products -->
+                                    <!-- BEGIN SECTION: Order Notes -->
+                                    <tr id="section-4692821" class="section order_notes">
+                                      <th style="mso-line-height-rule: exactly; padding: 11px 44px;" bgcolor="#ffffff">
+                                        
+                                      </th>
+                                    </tr>
+                                    <!-- END SECTION: Order Notes -->
+                                    <!-- BEGIN SECTION: Recommended Products -->
+                                    <tr id="section-4692822" class="section recommended_products">
+                                      
+                                      
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                      
+                                    </tr>
+                                    <!-- END SECTION: Recommended Products -->
+                                    <tr data-id="link-list">
+                                      <td class="menu_bar menu_bar_6" style="mso-line-height-rule: exactly; padding: 22px 0;" bgcolor="#ffffff">
+                                        <table class="table_menu_bar" border="0" width="100%" cellpadding="0" cellspacing="0" role="presentation">
+                                          <tbody><tr>
+                                            <th class="menu_bar_item first" style="width: 33%; mso-line-height-rule: exactly; font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Open Sans&#39;; font-size: 15px; font-weight: 300; line-height: 22px; text-transform: uppercase; color: #999999; border-right-width: 1px; border-right-color: #eeeeee; border-right-style: solid; border-left-width: 1px; border-left-color: #eeeeee; border-left-style: none;" align="center" bgcolor="#ffffff">
+                                              <a href="https://eu.suitnegozi.com/_t/c/v3/AACy1d4X_8bYUPSM71uilwq0lmrPNFcOkYcpLbXeW2EPHBWDoewQJV_tG_zN2z-i4JAEWdYmrfd0wzjULGT0ozJjELx3h4lljVvu8JJvOHxutnpNV0zAM1GhlEK_axv3Vsxb_CjpBZcNUujSySHDjazRtiHwtxNqsLGk1ops1H05QXLjIY2tetPLgsM7pbA9s6uZBC-OCTH0DsOytajzDjCxpNAHbCpu5TyoY_5d9wwizlugUS6ALfYv2iitePJtQGmzg8IPQlHBHD-eIpzRcXIcFa8=" target="_blank" style="color: #999999; text-decoration: none !important; text-underline: none; word-wrap: break-word; text-align: center !important; font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Open Sans&#39;; font-size: 15px; font-weight: 300; line-height: 22px; text-transform: uppercase;">
+                                                Shop
+                                              </a>
+                                            </th>
+                                            <th class="menu_bar_item" style="width: 33%; mso-line-height-rule: exactly; font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Open Sans&#39;; font-size: 15px; font-weight: 300; line-height: 22px; text-transform: uppercase; color: #999999; border-right-width: 1px; border-right-color: #eeeeee; border-right-style: solid; border-left-width: 1px; border-left-color: #eeeeee; border-left-style: solid;" align="center" bgcolor="#ffffff">
+                                              <a href="https://eu.suitnegozi.com/_t/c/v3/AACpB2TSpz5jcc1erfB-YSJrDkvpnoz_81Kw9UmP5Rs1ki0rgFv1U0S1dbYhVxbVuISs7P2NLsS_CdoCJxJopJnBSYS37l_wyMpFCCCL1hwRV74igIJeWb_qLnNgrLgjqcN75yvU18YGbWxb6z2HFROyR-GK0xuj3xeKkwj2ianDRlTgL49kUDT8-SfI-yA56zm9ehFaKtP9p2lyZC-5CgjHBk2wl-kHCZAIX2oxWTF-rAvMjAvYN9fhgFiXEH15-8nj8ftJCGywTahcisk0rvC-XqJVSVqJKeqG2IJzaKR1g8zJ" target="_blank" style="color: #999999; text-decoration: none !important; text-underline: none; word-wrap: break-word; text-align: center !important; font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Open Sans&#39;; font-size: 15px; font-weight: 300; line-height: 22px; text-transform: uppercase;">
+                                                About us
+                                              </a>
+                                            </th>
+                                            <th class="menu_bar_item last" style="width: 33%; mso-line-height-rule: exactly; font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Open Sans&#39;; font-size: 15px; font-weight: 300; line-height: 22px; text-transform: uppercase; color: #999999; border-right-width: 1px; border-right-color: #eeeeee; border-right-style: none; border-left-width: 1px; border-left-color: #eeeeee; border-left-style: solid;" align="center" bgcolor="#ffffff">
+                                              <a href="https://eu.suitnegozi.com/_t/c/v3/AACk_AklsgcXCRce4NhFkUbOO2dfAJL5JkxQnQIn3pR6X1hCaYJ5NXG-POrzhyuCUTj3fiWQV_zXwv58YauiWo2Y_Q4OPhloS7SYQmVKxq9aIlWjYN2PJUU9uJ-bLNt2dFF89DpyjGgE9WWyInkkxbeboo8H7ppI53vmNO7wVg0aeelcj2c_7IDjFXnimqtPtl7yybcRGeVEWflZmPCzxssPxjdsEa2nrKSE8dSG99ez609F2bOSSIu2di6l4f2baf3AyAtlhPr6VsYITYHa9aseJHP9QWR8cSv-tOSUBNzb_Lk=" target="_blank" style="color: #999999; text-decoration: none !important; text-underline: none; word-wrap: break-word; text-align: center !important; font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Open Sans&#39;; font-size: 15px; font-weight: 300; line-height: 22px; text-transform: uppercase;">
+                                                Contacts
+                                              </a>
+                                            </th>
+                                          </tr>
+                                        </tbody></table>
+                                      </td>
+                                    </tr>
+                                  </tbody></table>
+                                </td>
+                              </tr>
+                            </tbody></table>
+                            <!-- END : SECTION : MAIN -->
+                            <!-- BEGIN : SECTION : FOOTER -->
+                            <table class="section_wrapper footer" data-id="footer" id="section-footer" border="0" width="100%" cellpadding="0" cellspacing="0" align="center" style="min-width: 100%;" role="presentation" bgcolor="#f9f9f9">
+                              <tbody><tr>
+                                <td class="section_wrapper_th" style="mso-line-height-rule: exactly; padding-top: 22px; padding-bottom: 22px;" bgcolor="#f9f9f9">
+                                  <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center" style="min-width: 100%;" role="presentation">
+                                    <tbody><tr>
+                                      <th class="column_social" data-id="social" style="mso-line-height-rule: exactly;" bgcolor="#f9f9f9">
+                                        <table border="0" width="100%" cellpadding="0" cellspacing="0" role="presentation">
+                                          <!-- Social heading : BEGIN -->
+                                          <tbody><tr>
+                                            <th class="column_footer_title " width="100%" style="mso-line-height-rule: exactly; font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Karla&#39;; font-size: 14px; line-height: 22px; font-weight: 400; color: #999999; text-transform: none;" align="center" bgcolor="#f9f9f9">
+                                              <p data-key="section_footer_title" style="mso-line-height-rule: exactly; font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Karla&#39;; font-size: 14px; line-height: 22px; font-weight: 400; text-transform: none; color: #999999; margin: 0 0 11px;" align="center">Connect</p>
+                                            </th>
+                                          </tr>
+                                          <!-- Social heading : END -->
+                                          <!-- Store Address : BEGIN -->
+                                          <tr>
+                                            <th class="column_shop_social_icons " width="100%" style="mso-line-height-rule: exactly;" bgcolor="#f9f9f9">
+                                              <a class="social-link" href="https://eu.suitnegozi.com/_t/c/v3/AACDTuMFBm0BmXTMhK9QCjUEaTXz4rYJNwFE1DofsA2o5bJJpWbSDzszLzeoWsOcGYYJzSve_wt-xgWvGMoNvqOpL7bz6ltFVDqtZDvk4XdKv5937ooXtj7MW6OS1W9_6KRbzGtghCfsZIoxksCOPcZ47TYeDdWOiVLSGrw97l-QTdY8XYLIefkDnNUQwQAm3J2frF7sjC9oXULJJstNVb0BQRYOckIv_2dci1ynAbifre4U9Niv2-mS58YJac5lXTv2xxMpDp3ucXLnrQkXlABiDtLxMkPqs73UI8tpTCiY4w==" target="_blank" title="Facebook" style="color: #222222; text-decoration: none !important; text-underline: none; font-size: 14px;">
+                                                <img width="28" class="social-icons" alt="Facebook" src="https://orderlyemails.com/facebook_1.png" style="width: 28px; height: auto !important; vertical-align: middle; padding: 6px 6px 28px;"/>
+                                              </a>
+                                              <a class="social-link" href="https://eu.suitnegozi.com/_t/c/v3/AADMH7tRR6Xel3LuxeJztE96tGabTtgrtoXd_4ZBHlU-r-uJ6P87elvlvKmJvGiW0trFVeIWqZJq5Up8E2Df42AxEDUZrowcYTiBivrSg_jyhcJWAUjzeN9j7U5fs39LJhI8sO_2aNISly69uF5-IK82ikQvTkAprlwXYw4kVt6Tfa_RBmR26PVmL8k54_13FyH6e0SCBikd0wgXZ_rzVCLlgaUT7C43i3cfJkNZtutf9Erzv0LHQr7ORHwxL6asfrj4nyTmC9PBCeLZ3HOb-BtxkF_nJB7Y4EORyVoEaQme_cU=" target="_blank" title="Instagram" style="color: #222222; text-decoration: none !important; text-underline: none; font-size: 14px;">
+                                                <img width="28" class="social-icons" alt="Instagram" src="https://orderlyemails.com/instagram_1.png" style="width: 28px; height: auto !important; vertical-align: middle; padding: 6px 6px 28px;"/>
+                                              </a>
+                                            </th>
+                                          </tr>
+                                        </tbody></table>
+                                      </th>
+                                    </tr>
+                                    <tr>
+                                      <th data-id="store-info" style="mso-line-height-rule: exactly;" bgcolor="#f9f9f9">
+                                        <table border="0" width="100%" cellpadding="0" cellspacing="0" role="presentation">
+                                          <!-- Store Website : BEGIN -->
+                                          <tbody><tr>
+                                            <th class="column_shop_block1 " width="100%" style="mso-line-height-rule: exactly; font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Karla&#39;; font-size: 14px; line-height: 22px; font-weight: 400; color: #999999; text-transform: none; padding-bottom: 22px;" align="center" bgcolor="#f9f9f9">
+                                              <a href="https://eu.suitnegozi.com/_t/c/v3/AAA13u39jRzZpggxhiBIsekTMKc3AXXNLIQfV_JWIDK3Q5ZlWLN6cg3IPbnmeaQDYrtSn0Qt48BZWzH4WKUFEPmf7HMM9w941VSg74c6hyTNDxRzAykh0K8m2q7hLNYHRcpE2Z33krt7KxlFLyva_a_xH--mtmmi369r1qvGvuwYX6Ty0PRUf3owTkiMlOv2Zx6p9Upw2UOnzkBfc3PWgT_aKsVO9eeZF_irba3wv4soXYd1iNEFu4S_zc_H10JianM8BUCO4CQeOyc9u3pkK67c4x44hCK9dgU0NKR1C9VkXbdCXFUqE20DOwwYT5WnnoxJJM3tUPNIihiQzsfegqYHzQ==" target="_blank" data-key="section_shop_block1" style="color: #222222; text-decoration: none !important; text-underline: none; font-size: 14px; font-weight: 400; text-transform: none;">suitnegozi.com</a>
+                                            </th>
+                                          </tr>
+                                          <!-- Store Website : END -->
+                                          <!-- Store Address : BEGIN -->
+                                          <tr>
+                                            <th class="column_shop_block2 " data-key="section_shop_block2" width="100%" style="mso-line-height-rule: exactly; font-family: -apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Arial,&#39;Karla&#39;; font-size: 14px; line-height: 22px; font-weight: 400; color: #999999; text-transform: none;" align="center" bgcolor="#f9f9f9">
+                                              Suit<br/>
+                                              Via 140° Rgt. Fanteria, 12-24<br/>
+                                              Lecce, LE 73100<br/>
+                                              <br/>
+                                              Copyright © 2025
+                                            </th>
+                                          </tr>
+                                          <!-- Store Address : END -->
+                                        </tbody></table>
+                                      </th>
+                                    </tr>
+                                    <tr>
+                                      <th height="1" border="0" style="height: 1px; line-height: 1px; font-size: 1px; mso-line-height-rule: exactly; padding: 0;" bgcolor="#f9f9f9">
+                                        <img id="open-image" src="https://eu.suitnegozi.com/tools/emails/open/shipping-confirmation/3" alt="" width="1" height="1" border="0"/>
+                                      </th>
+                                    </tr>
+                                  </tbody></table>
+                                </td>
+                              </tr>
+                            </tbody></table>
+                            <!-- END : SECTION : FOOTER -->
+                          </th>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </center>
+                </th>
+              </tr>
+            </tbody>
+          </table>
+          <!-- END : CONTAINER -->
+        
+      
+
+</body></html>

@@ -1,0 +1,118 @@
+# Paths ----------------------------------------------
+set folder = ~/mail
+unset alias_file 
+set header_cache = ~/.mutt/cache/headers # where to store headers
+set message_cachedir = ~/.mutt/cache/bodies # where to store bodies
+set mailcap_path = ~/.mailcap # entries for filetypes
+set tmpdir = ~/.mutt/tmp # where to keep temp files
+set signature = ~/.mutt/signature # my signature file
+
+# Basic Options --------------------------------------
+set mail_check = 60
+unset move
+unset mark_old # read/new is good enough for me
+unset copy
+set charset = "utf-8"
+set beep_new # bell on new mails
+auto_view text/html # autoview html
+auto_view application/pgp-encrypted
+alternative_order text/plain text/enriched text/html # save html for browser view
+
+# Sidebar Patch --------------------------------------
+set sidebar_visible = yes
+set sidebar_format = "%B%?F? [%F]?%* %?N?%N/?%S"
+set mail_check_stats
+
+# Account Settings -----------------------------------
+set spoolfile = +gmail/INBOX # Default inbox
+mailboxes +gmail/INBOX \
+    +gmail/sent \
+    +gmail/drafts \
+    +gmail/spam \
+    +gmail/archive \
+    +trash/trash \
+    +tmp/search
+set trash = +trash/trash
+set postponed = +gmail/drafts
+set mbox = +gmail/archive
+
+# Index View Options ---------------------------------
+set sort = reverse-threads
+set sort_aux = last-date-received
+set timeout = 10
+set reverse_alias = yes
+set strict_threads = yes
+set sort_re = yes
+set reply_regexp = "^(([Rr][Ee]?(\[[0-9]+\])?: *)?(\[[^]]+\] *)?)*"
+
+# Index Key Bindings ---------------------------------
+bind index . noop
+bind index <tab> sync-mailbox
+bind index <space> collapse-thread
+bind attach <return> view-mailcap
+bind attach i exit
+bind editor <Tab> complete-query
+macro index S "<enter-command>unset wait_key<enter><shell-escape>~/.mutt/mutt-notmuch-py ~/mail/tmp/search<enter><change-folder-readonly>+tmp/search<enter>" "search mail (using notmuch)"
+#macro index S "<vfolder-from-query>" "notmuch search"
+macro index O "<shell-escape>offlineimap<enter>" "run offlineimap to sync all mail"
+macro index o "<shell-escape>offlineimap -qf INBOX<enter>" "run offlineimap to sync inbox"
+macro index .i "<limit>(~N|~F)<Enter>" "view new/flag"
+macro index .a "<limit>~A<Enter>" "view all"
+macro index A \
+    "<tag-pattern>~N<enter><tag-prefix><clear-flag>N<untag-pattern>.<enter>" \
+    "mark all new as read"
+macro index,pager I \
+    "<pipe-message>khard add-email<return>" \
+        "Add email address to contact"
+macro index D \
+  "<tag-pattern>.<enter><tag-prefix><delete-message><untag-pattern>.<enter>" \
+  "delete all messages"
+set query_command= "khard email --parsable --search-in-source-files %s"
+
+# Sidebar Navigation ---------------------------------
+bind index,pager <down> sidebar-next
+bind index,pager <up> sidebar-prev
+bind index,pager <right>  sidebar-open
+
+# Pager View Options ---------------------------------
+set pager_index_lines = 12 # number of index lines to show
+set pager_context = 3 # number of context lines to show
+set pager_stop = yes # don't go to next message automatically
+unset markers # no ugly plus signs
+
+# Compose View Options -------------------------------
+set envelope_from = yes # which from?
+unset sig_dashes # no dashes before sig
+set fast_reply = yes # skip to compose when replying
+set sig_on_top = yes
+set fcc_attach = yes # save attachments with the body
+set mime_forward = no # forward attachments as part of the body
+set forward_format = "Fwd: %s"
+set forward_decode = yes
+set mime_forward_decode = no
+set reverse_name = yes # reply as whomever it was to
+set include = yes # include message in replies
+set editor = nvim
+set send_charset = "utf-8"
+set attribution = "On %d, %n wrote:"
+
+# Sending Options ------------------------------------
+set use_from = yes
+set reverse_name = yes
+set sendmail_wait = 0
+unset record #not store copy of sent mail
+set user_agent = yes
+
+# PGP Options ----------------------------------------
+set crypt_autosign = no 
+set crypt_replysign = yes
+set crypt_replysignencrypted = yes
+set crypt_replyencrypt = yes
+set pgp_use_gpg_agent = yes
+set crypt_use_gpgme = yes
+set pgp_timeout = 300
+
+source ~/.mutt/catppuccin.muttrc
+source ~/.mutt/muttrc-identity
+source ~/.mutt/muttrc-system
+
