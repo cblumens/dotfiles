@@ -22,6 +22,7 @@ set $menu exec env QT_QPA_PLATFORMTHEME=gtk3 wmenu-run -i -f "monospace 11" -N '
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 output * bg ~/.config/sway/evening-sky.png fill
+# output * bg ~/.config/sway/flamingo_bkg5.png fill
 
 # Idle configuration
 # In ~/.config/sway/config:
@@ -76,9 +77,13 @@ exec swayidle -w \
     # Network manager
     bindsym $mod+n exec $term nmtui
 
-    bindsym $mod+q exec QT_QPA_PLATFORMTHEME=gtk3 qutebrowser
+    # bindsym $mod+q exec QT_QPA_PLATFORMTHEME=gtk3 qutebrowser
 
-    bindsym $mod+m exec $term neomutt
+# Display setup
+exec_always --no-startup-id ~/.local/bin/display-setup.sh
+bindswitch --reload lid:on exec ~/.local/bin/display-setup.sh 
+bindswitch --reload lid:off exec ~/.local/bin/display-setup.sh
+bindsym $mod+Shift+m exec ~/.local/bin/display-setup.sh
 
 # Moving around:
     # Move your focus around
