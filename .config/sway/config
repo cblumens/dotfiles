@@ -83,7 +83,7 @@ exec swayidle -w \
 # Display setup
 exec_always --no-startup-id ~/.local/bin/display-setup.sh
 bindswitch --reload lid:on exec ~/.local/bin/display-setup.sh 
-bindswitch --reload lid:off exec ~/.local/bin/display-setup.sh
+bindswitch --reload lid:off exec exec 'swaymsg output eDP-1 enable; ~/.local/bin/display-setup.sh
 bindsym $mod+Shift+m exec ~/.local/bin/display-setup.sh
 
 # Moving around:
@@ -234,7 +234,6 @@ bindsym $mod+Shift+Tab workspace prev
 # Floating window rules
 for_window [title="Extension: \(Bitwarden Password Manager\).*"] floating enable
 for_window [app_id="nextcloud"] floating enable
-for_window [app_id="pavucontrol"] floating enable
 for_window [app_id="blueman-manager"] floating enable
 
 include /etc/sway/config.d/*
