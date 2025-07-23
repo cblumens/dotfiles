@@ -7,7 +7,7 @@ set recolor-lightcolor "#1e1e2e"
 set recolor-darkcolor "#cdd6f4"
 
 # Font
-set font "monospace 11"
+set font "JetBrains Mono NF 11"
 
 # Behaviour 
 set adjust-open "best-fit"

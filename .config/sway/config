@@ -16,13 +16,14 @@ set $right l
 # Your preferred terminal emulator
 set $term foot 
 # Your preferred application launcher
-set $menu exec env QT_QPA_PLATFORMTHEME=gtk3 wmenu-run -i -f "monospace 11" -N '#1e1e2e' -n '#cdd6f4' -M '#45475a' -m '#cdd6f4' -S '#cba6f7' -s '#1e1e2e'
+set $menu exec env QT_QPA_PLATFORMTHEME=gtk3 wmenu-run -i -f "JetBrains Mono NF 11" -N '#1e1e2e' -n '#cdd6f4' -M '#45475a' -m '#cdd6f4' -S '#cba6f7' -s '#1e1e2e'
+
+font pango:JetBrains Mono NF 11
 
 # Output configuration
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 output * bg ~/.config/sway/evening-sky.png fill
-# output * bg ~/.config/sway/flamingo_bkg5.png fill
 
 # Idle configuration
 # In ~/.config/sway/config:
@@ -76,7 +77,7 @@ exec swayidle -w \
 
     # Network manager
     bindsym $mod+n exec $term nmtui
-
+    bindsym $mod+p exec $term pulsemixer
     # bindsym $mod+q exec QT_QPA_PLATFORMTHEME=gtk3 qutebrowser
 
 # Display setup

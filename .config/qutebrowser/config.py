@@ -14,15 +14,7 @@ catppuccin.setup(c, 'mocha')      # Dunkel
 
 # Settings
 c.fonts.default_size = '11pt'
+c.fonts.default_family = 'JetBrains Mono NF'
 
 c.content.local_content_can_access_file_urls = True
 c.content.local_content_can_access_remote_urls = True
-
-
-c.url.searchengines = {
-    'DEFAULT': 'https://www.perplexity.ai/search?q={}'
-}
-
-
-c.url.start_pages = ['https://www.perplexity.ai/']
-c.url.default_page = 'https://www.perplexity.ai/'
