@@ -10,7 +10,7 @@ Tired of waiting for Electron apps to load? Want your entire workflow to run ove
 - **Browser:** qutebrowser
 - **Terminal:** foot (wayland native)
 - **Passwords:** pass (GPG)
-- **Mail:** offlineimap + mutt 
+- **Mail:** offlineimap + neomutt 
 - **Calendar:** vdirsyncer + khal
 - **Contacts:** vdirsyncer + khard
 - **Tasks:** todoman
